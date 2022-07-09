@@ -68,7 +68,7 @@ document.querySelector("#main").addEventListener("mousemove", function (dets) {
 
 var all = document   .querySelector(".n22").addEventListener("mouseenter", function (dets) {  
               var c1 = document.querySelector("#middle img ");c1.setAttribute(
-            "src", "Img/01.jpg"
+            "src", "https://visuals.brybry.co/img/vis-snaps/opt/01.jpg"
         );
         document.querySelector("#page1").style.color = "yellow";
         document.querySelector("#page1").style.backgroundColor = "rgb(31,30,36)";
@@ -76,7 +76,7 @@ var all = document   .querySelector(".n22").addEventListener("mouseenter", funct
 var all = document.querySelector(".n22") .addEventListener("mouseleave", function (dets) {
         var c1 = document.querySelector("#middle img ");
         c1.setAttribute(
-            "src",Img/04.jpg
+            "src","https://visuals.brybry.co/img/vis-snaps/opt/04.jpg"
         );
         document.querySelector("#page1").style.color = "white";
         document.querySelector("#page1").style.backgroundColor = "rgb(120, 161, 156)";
@@ -88,7 +88,7 @@ var all = document.querySelector(".n22") .addEventListener("mouseleave", functio
 document.querySelector(".left").addEventListener("mouseenter", function (dets) {
     var c1 = document.querySelector("#middle img ");
     c1.setAttribute(
-        "src", "Img/02.png");
+        "src", "https://visuals.brybry.co/img/visuals/pieces/02.png");
     document.querySelector("#page1").style.color = "#FABAD9";
     document.querySelector("#page1").style.backgroundColor = "rgb(121,61,43)";
 });
@@ -97,7 +97,7 @@ document.querySelector(".left").addEventListener("mouseleave", function (dets) {
     var c1 = document.querySelector("#middle img ");
     c1.setAttribute(
         "src",
-        "Img/08.jpg"
+        "https://visuals.brybry.co/img/vis-snaps/opt/08.jpg"
     );
     document.querySelector("#page1").style.color = "black";
     document.querySelector("#page1").style.backgroundColor = "rgb(255, 240, 40)";
@@ -109,7 +109,7 @@ document.querySelector(".left").addEventListener("mouseleave", function (dets) {
 document.querySelector(".rtop ").addEventListener("mouseenter", function (dets) {
     var c1 = document.querySelector("#middle img ");
     c1.setAttribute(
-        "src", "Img/05.png");
+        "src", "https://visuals.brybry.co/img/vis-snaps/opt/05.png");
     document.querySelector("#page1").style.color = "#395474";
     document.querySelector("#page1").style.backgroundColor = "#76BACB";
 });
@@ -118,7 +118,7 @@ document.querySelector(".rtop").addEventListener("mouseleave", function (dets) {
     var c1 = document.querySelector("#middle img ");
     c1.setAttribute(
         "src",
-        "Img/02.jpg"
+        "https://visuals.brybry.co/img/vis-snaps/opt/02.jpg"
     );
     document.querySelector("#page1").style.color = "#F9E8E3";
     document.querySelector("#page1").style.backgroundColor = "#FD9879";
