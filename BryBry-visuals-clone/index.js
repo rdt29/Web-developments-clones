@@ -76,7 +76,7 @@ var all = document   .querySelector(".n22").addEventListener("mouseenter", funct
 var all = document.querySelector(".n22") .addEventListener("mouseleave", function (dets) {
         var c1 = document.querySelector("#middle img ");
         c1.setAttribute(
-            "src","Img/04.jpg"
+            "src",Img/04.jpg
         );
         document.querySelector("#page1").style.color = "white";
         document.querySelector("#page1").style.backgroundColor = "rgb(120, 161, 156)";
