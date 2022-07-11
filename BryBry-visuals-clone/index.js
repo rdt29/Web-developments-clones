@@ -56,6 +56,22 @@ gsap.to("#overlay", {
     y:"-100%"
 });
 
+
+
+gsap.to(".n22",{
+
+    x:500,
+    // y:300,
+    scale:2,
+    duration:5,
+    delay: 7,
+})
+
+
+
+
+
+
 document.querySelector("#main").addEventListener("mousemove", function (dets) {
     document.querySelector("#cur").style.left = `${dets.x}px`;
     document.querySelector("#cur").style.top = `${dets.y}px`;
