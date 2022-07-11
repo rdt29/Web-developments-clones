@@ -36,6 +36,8 @@ function run() {
     ScrollTrigger.refresh();
 }
 run();
+
+
 // cursor
 
 gsap.to("#cur", {
@@ -58,16 +60,53 @@ gsap.to("#overlay", {
 
 
 
-gsap.to(".n22",{
+gsap.to(".n22 h1",{
 
     x:500,
-    // y:300,
-    scale:2,
+
+    // scale:2,
+    scrollTrigger:{
+        trigger :"#page2 h1",
+        scroller : "#main",
+        scrub:true,
+        // markers:true,
+        start:"top 100%",
+        end:"top 20%",
+    }
+})
+
+gsap.to(".left h1" , {
+    x:-500,
+    // scale:1.5,
     duration:5,
-    delay: 7,
+    scrollTrigger:{
+        trigger :"#page2 h1",
+        scroller : "#main",
+        scrub:true,
+        // markers:true,
+        start:"top 100%",
+        end:"top 20%",
+    }
+   
+})
+gsap.to("#middle img  , .RY , .Design"  , {
+    y:-300,
+    scrollTrigger:{
+        trigger :"#page2 h1",
+        scroller : "#main",
+        scrub:true,
+        // markers:true,
+        start:"top 100%",
+        end:"top 20%",
+    }
 })
 
 
+gsap.from(".pg1arrow h2 ,  .pg1arrow img",{
+    y:-150,
+    repeat:-1,
+    duration:2,
+})
 
 
 
